@@ -16,8 +16,8 @@ livenessProbe:
 
 ## scaling ##
 autoscale: enabled
-replicas: 2 # the desired number of replicas to start with
-minReplicas: 2 # minimum number of replicas
+replicas: 1 # the desired number of replicas to start with
+minReplicas: 1 # minimum number of replicas
 maxReplicas: 32 # max number of replicas
 cpuThreshold: "30"
 memoryThreshold: "0"
