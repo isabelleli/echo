@@ -19,5 +19,5 @@ autoscale: enabled
 replicas: 2 # the desired number of replicas to start with
 minReplicas: 2 # minimum number of replicas
 maxReplicas: 32 # max number of replicas
-cpuThreshold: "0"
-memoryThreshold: "0"
+cpuThreshold: ""
+memoryThreshold: ""
