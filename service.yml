@@ -21,3 +21,5 @@ minReplicas: 2 # minimum number of replicas
 maxReplicas: 32 # max number of replicas
 cpuThreshold: "60"
 memoryThreshold: "60"
+Labels: 
+  teamname: "infra"
